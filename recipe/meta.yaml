@@ -34,7 +34,6 @@ requirements:
 test:
   imports:
     - qtypes
-    - qtypes.widgets
   commands:
     - pip check
   requires:
