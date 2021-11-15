@@ -21,12 +21,12 @@ requirements:
     - flit
     - pyside2
     - qtpy
-    - toml
     - pip
+    - pint
   run:
     - python >=3.8
     - qtpy
-    - toml
+    - pint
   run_constrained:
     - pyside2 >=5.12
     - pyqt >=5
