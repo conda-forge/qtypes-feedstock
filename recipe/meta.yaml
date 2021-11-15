@@ -23,10 +23,14 @@ requirements:
     - qtpy
     - pip
     - pint
+    - yaq-traits
+    - toml
   run:
     - python >=3.8
     - qtpy
     - pint
+    - yaq-traits
+    - toml
   run_constrained:
     - pyside2 >=5.12
     - pyqt >=5
