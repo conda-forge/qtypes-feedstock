@@ -1,5 +1,5 @@
 {% set name = "qtypes" %}
-{% set version = "2022.11.0" %}
+{% set version = "2023.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qtypes-{{ version }}.tar.gz
-  sha256: bf1934605ed75b182ff0a8442d679d3d5f2820bd27b951fe7c5a363b070ac322
+  sha256: f4ef997f1c82396a95d14e91aa95fbcd17cfef7e4bc70727e73f03bc801ac041
 
 build:
   number: 0
